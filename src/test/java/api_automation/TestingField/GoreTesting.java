@@ -39,7 +39,7 @@ public class GoreTesting extends TestBase {
                 .when()
                 .post("https://gorest.co.in/public/v1/users");
        int statusCode= response.getStatusCode();
-
+/// //////////////////////////
 
     }
 }
