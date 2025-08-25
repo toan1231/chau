@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/chaut/chauthai/src/test/java/api_automation/TestingField/GoreTesting.java"><classes><class name="api_automation.TestingField.GoreTesting"><methods><include name="user_create_requestData"/></methods></class></classes></test></suite>
