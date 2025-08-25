@@ -33,12 +33,18 @@ public class GoreTesting extends TestBase {
         String mappBuilder=mapper.writerWithDefaultPrettyPrinter().writeValueAsString(builder);
         Log.info("This is the beginning of post request");
         Response response= given()
-                .header("Authorization","Bearer d923586bca288aef6e650810925a5426ad3a62d413a6501fe5cc0d97185d610c")
                 .contentType(ContentType.JSON)
-                .body(mappBuilder)
+                .body(" {\n" +
+                        "            \"id\": 1,\n" +
+                        "            \"employee_name\": \"Tigerhh Nixon\",\n" +
+                        "            \"employee_salary\": 320800,\n" +
+                        "            \"employee_age\": 61,\n" +
+                        "            \"profile_image\": \"\"\n" +
+                        "        }")
                 .when()
-                .post("https://gorest.co.in/public/v1/users");
+                .post("https://dummy.restapiexample.com/api/v1/create");
        int statusCode= response.getStatusCode();
+        System.out.println("chau"+response.prettyPrint());
 /// //////////////////////////
 
     }
