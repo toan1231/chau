@@ -6,8 +6,6 @@ import api_automation.requestBuilder.GoreRequestBuilder;
 //import api_automation.utils.Log;
 import api_automation.utils.Log;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jcraft.jsch.Logger;
 import io.restassured.http.ContentType;
 
 import api_automation.utils.TestBase;
