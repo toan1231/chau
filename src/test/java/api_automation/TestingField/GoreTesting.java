@@ -33,11 +33,14 @@ public class GoreTesting {
                         "            \"profile_image\": \"\"\n" +
                         "        }")
                 .when()
-//                .post("https://dummy.restapiexample.com/api/v1/create");
-                .post("http://localhost:8080/job/test4/build?token=toan1231");
+              .post("https://dummy.restapiexample.com/api/v1/create");
+               // .post("http://localhost:8080/job/test4/build?token=toan1231");
         //.get("http://localhost:8080/job/testing2/build?token=chauthai123456789");
        int statusCode= response.getStatusCode();
         System.out.println("11111111111111111"+statusCode);
+        System.out.println(response.prettyPrint());
+
+
 
         for (int i=0;i<7;i++){
             System.out.println("4444333333333333"+response.prettyPrint());
