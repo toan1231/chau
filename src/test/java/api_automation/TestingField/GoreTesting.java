@@ -37,7 +37,7 @@ public class GoreTesting {
                // .post("http://localhost:8080/job/test4/build?token=toan1231");
         //.get("http://localhost:8080/job/testing2/build?token=chauthai123456789");
        int statusCode= response.getStatusCode();
-        System.out.println("11111111111111111"+statusCode);
+        System.out.println("11"+statusCode);
         System.out.println(response.prettyPrint());
 
 
